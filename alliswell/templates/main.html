@@ -1,0 +1,205 @@
+{%  extends 'source.html' %}
+{% load static %}
+{% block title %}
+<title>Home</title>
+
+{% endblock title %}
+
+
+{% block content %}
+
+
+<div id="fh5co-wrapper">
+    <div id="fh5co-page">
+	   
+            {%  include 'navbar.html' %}
+
+       
+            <aside id="fh5co-hero" class="js-fullheight">
+                <div class="flexslider js-fullheight">
+                    <ul class="slides">
+                    <li style="background-image: url(../static/image/w.png);">
+                        <div class="overlay-gradient"></div>
+                        <div class="container">
+                            <div class="col-md-12 col-md-offset-0 text-center slider-text">
+                                <div class="slider-text-inner js-fullheight">
+                                    <div class="desc" style="padding-top: 150px";>
+                                        <p><span>Marvel Universe</span></p>
+                                        <h2 id="moviename">Black <br><br> Panther</h2>
+                                        <p>
+                                            <a href="#" id="book" class="btn btn-primary btn-lg">Book Now</a>
+                                            <span id="date">DECEMBER 07,2022  A+ CINEMA</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(../static/image/1.jpg);">
+                        <div class="overlay-gradient"></div>
+                        <div class="container">
+                            <div class="col-md-12 col-md-offset-0 text-center slider-text">
+                                <div class="slider-text-inner js-fullheight">
+                                    <div class="desc" style="padding-top: 150px";>
+                                        <p><span>Action</span></p>
+                                        <h2 id="moviename">Meg 2:<br><br>
+                                            The Trench</h2>
+                                        <p>
+                                            <a href="#" id="book" class="btn btn-primary btn-lg">Book Now</a>
+                                            <span id="date">DECEMBER 07,2022  A+ CINEMA</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(../static/image/apes.png);">
+                        <div class="overlay-gradient"></div>
+                        <div class="container">
+                            <div class="col-md-12 col-md-offset-0 text-center slider-text">
+                                <div class="slider-text-inner js-fullheight">
+                                    <div class="desc" style="padding-top: 150px";>
+                                        <p><span>Adventure</span></p>
+                                        <h2 id="moviename">War For <br><br>
+                                            The Planet<br><br>
+                                            Of The Apes
+                                            </h2>
+                                        <p>
+                                            <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+                                            <span id="date">DECEMBER 07,2022  A+ CINEMA</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    </ul>
+                </div>
+            </aside>
+
+            <div id="fh5co-blog-section" style="background-color:#0e1014 ;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title text-center">
+                                <h2>Opening this week </h2>
+                                <div class="lab">
+                                    <div class="chooser-date">
+                                        <label for="choosedate" class="label1">choose date</label>
+                                        <input type="date" name="choose date" class="date" placeholder="ANY DATE" id="choosedate" style="background-color: transparent;">               
+                                    </div>
+                                    <div class="chooser-time">
+                                        <label for="choosetime" class="label2">choose time</label>
+                                        <input type="time" name="choose time" class="time" value="01:00" placeholder="ANY TIME" id="choosetime" style="background-color: transparent;"> 
+                                    </div>
+                                    <div class="chooser-aud">
+                                        <label for="aud" class="label3">Choose auditorium </label>
+                                        <select id="aud" name="aud" form="carform" class="aud"  style="background-color: transparent;" >
+                                        <option value="any">any audi</option>
+                                        <option value="aud1">aud1</option>
+                                        <option value="aud2">aud2</option>
+                                        <option value="aud3">aud3</option>
+                                        <option value="aud4">aud4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src=".././static/image/3.png" alt="#">		
+                                    </a>		
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">THOR LOVE AND THUNDER</a></h3>
+                                    <div class="product-price">
+                                        <span>2h 40m &nbsp; &nbsp;|&nbsp; &nbsp; Action/Adventure </span>
+                                        <br>
+                                        <span>. . .</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src=".././static/image/3.png" alt="#">		
+                                    </a>		
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">THOR LOVE AND THUNDER</a></h3>
+                                    <div class="product-price">
+                                        <span>2h 40m &nbsp; &nbsp;|&nbsp; &nbsp; Action/Adventure </span>
+                                        <br>
+                                        <span>. . .</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src=".././static/image/3.png" alt="#">		
+                                    </a>		
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">THOR LOVE AND THUNDER</a></h3>
+                                    <div class="product-price">
+                                        <span>2h 40m &nbsp; &nbsp;|&nbsp; &nbsp; Action/Adventure </span>
+                                        <br>
+                                        <span>. . .</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src=".././static/image/3.png" alt="#">		
+                                    </a>		
+                                </div>
+                                <div class="product-content">
+                                    <h3><a href="product-details.html">THOR LOVE AND THUNDER</a></h3>
+                                    <div class="product-price">
+                                        <span>2h 40m &nbsp; &nbsp;|&nbsp; &nbsp; Action/Adventure </span>
+                                        <br>
+                                        <span>. . .</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            
+            </div>
+
+            {% include "footer.html" %}
+  
+        </div>
+    </div>
+
+
+   {% endblock content %}
+
+
